@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag3">
+
+    <SeekBar
+        android:id="@+id/seekRed"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:max="255"
+        android:padding="10dp"
+        android:progress="0"
+        android:progressTint="#FF5733"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:thumbTint="#FF5733" />
+
+    <SeekBar
+        android:id="@+id/seekGreen"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekRed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"
+        android:max="255"
+        android:padding="10dp"
+        android:progress="0"
+        android:progressTint="#33FF39"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:thumbTint="#33FF39" />
+
+    <SeekBar
+        android:id="@+id/seekBlue"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekGreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"
+        android:max="255"
+        android:padding="10dp"
+        android:progress="0"
+        android:progressTint="#339CFF"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:thumbTint="#339CFF" />
+
+    <Button
+        android:id="@+id/changeColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBlue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#808080"
+        android:text="Change Color" />
+</RelativeLayout>
+

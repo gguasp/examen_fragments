@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frag1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="text" />
+
+    <SeekBar
+        android:id="@+id/textSizeBar"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:max="90"
+        android:padding="10dp"
+        android:progress="0"
+        android:progressTint="#808080"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:thumbTint="#808080" />
+
+    <Button
+        android:id="@+id/changeTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textSizeBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="#808080"
+        android:text="Change Text" />
+
+
+</RelativeLayout>
